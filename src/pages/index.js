@@ -20,7 +20,7 @@ export default ({ data }) => (
     <div>
       Tsvetelin's thoughts  
     </div>
-    <h4>{ data.allMarkdownRemark.totalCount }</h4>
+    <h4>{ data.allMarkdownRemark.totalCount } Posts</h4>
     {
       data.allMarkdownRemark.edges.map(({node}) => (
         <div key={node.id}>
